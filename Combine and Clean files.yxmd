@@ -1,0 +1,2901 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2020.4">
+  <Nodes>
+    <Node ToolID="23">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="64" y="5" width="1535" height="373" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>Container 23</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="False" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="2">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+            <Position x="89" y="114" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Passwords />
+              <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="FileName">C:\Users\carlson nic\Desktop\BDP final\shared_data_carlson1858_*.csv</File>
+              <FormatSpecificOptions>
+                <HeaderRow>True</HeaderRow>
+                <IgnoreErrors>False</IgnoreErrors>
+                <AllowShareWrite>False</AllowShareWrite>
+                <ImportLine>1</ImportLine>
+                <FieldLen>5000</FieldLen>
+                <SingleThreadRead>False</SingleThreadRead>
+                <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+                <Delimeter>,</Delimeter>
+                <QuoteRecordBreak>False</QuoteRecordBreak>
+                <CodePage>28591</CodePage>
+              </FormatSpecificOptions>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>shared_data_carlson1858_*.csv</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="Field_1" size="5000" source="File: C:\Users\carlson nic\Desktop\BDP final\shared_data_carlson1858_*.csv" type="V_String" />
+                <Field name="user_id" size="5000" source="File: C:\Users\carlson nic\Desktop\BDP final\shared_data_carlson1858_*.csv" type="V_String" />
+                <Field name="friends_count" size="5000" source="File: C:\Users\carlson nic\Desktop\BDP final\shared_data_carlson1858_*.csv" type="V_String" />
+                <Field name="user_location" size="5000" source="File: C:\Users\carlson nic\Desktop\BDP final\shared_data_carlson1858_*.csv" type="V_String" />
+                <Field name="user_name" size="5000" source="File: C:\Users\carlson nic\Desktop\BDP final\shared_data_carlson1858_*.csv" type="V_String" />
+                <Field name="user_screen_name" size="5000" source="File: C:\Users\carlson nic\Desktop\BDP final\shared_data_carlson1858_*.csv" type="V_String" />
+                <Field name="user_created_at" size="5000" source="File: C:\Users\carlson nic\Desktop\BDP final\shared_data_carlson1858_*.csv" type="V_String" />
+                <Field name="description" size="5000" source="File: C:\Users\carlson nic\Desktop\BDP final\shared_data_carlson1858_*.csv" type="V_String" />
+                <Field name="favourites_count" size="5000" source="File: C:\Users\carlson nic\Desktop\BDP final\shared_data_carlson1858_*.csv" type="V_String" />
+                <Field name="user_followers_count" size="5000" source="File: C:\Users\carlson nic\Desktop\BDP final\shared_data_carlson1858_*.csv" type="V_String" />
+                <Field name="tweet_favorite_count" size="5000" source="File: C:\Users\carlson nic\Desktop\BDP final\shared_data_carlson1858_*.csv" type="V_String" />
+                <Field name="tweet_id" size="5000" source="File: C:\Users\carlson nic\Desktop\BDP final\shared_data_carlson1858_*.csv" type="V_String" />
+                <Field name="tweet_created_at" size="5000" source="File: C:\Users\carlson nic\Desktop\BDP final\shared_data_carlson1858_*.csv" type="V_String" />
+                <Field name="text" size="5000" source="File: C:\Users\carlson nic\Desktop\BDP final\shared_data_carlson1858_*.csv" type="V_String" />
+                <Field name="tweet_lang" size="5000" source="File: C:\Users\carlson nic\Desktop\BDP final\shared_data_carlson1858_*.csv" type="V_String" />
+                <Field name="retweeted_count" size="5000" source="File: C:\Users\carlson nic\Desktop\BDP final\shared_data_carlson1858_*.csv" type="V_String" />
+                <Field name="retweet_created_at" size="5000" source="File: C:\Users\carlson nic\Desktop\BDP final\shared_data_carlson1858_*.csv" type="V_String" />
+                <Field name="retweeted_status_followers_count" size="5000" source="File: C:\Users\carlson nic\Desktop\BDP final\shared_data_carlson1858_*.csv" type="V_String" />
+                <Field name="retweet_user_name" size="5000" source="File: C:\Users\carlson nic\Desktop\BDP final\shared_data_carlson1858_*.csv" type="V_String" />
+                <Field name="retweet_user_location" size="5000" source="File: C:\Users\carlson nic\Desktop\BDP final\shared_data_carlson1858_*.csv" type="V_String" />
+                <Field name="length_of_text" size="5000" source="File: C:\Users\carlson nic\Desktop\BDP final\shared_data_carlson1858_*.csv" type="V_String" />
+                <Field name="FileName" size="254" source="File: FileName" type="V_WString" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+        </Node>
+        <Node ToolID="3">
+          <GuiSettings>
+            <Position x="197" y="113" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Value name="Check Box (135)">False</Value>
+              <Value name="Check Box (136)">False</Value>
+              <Value name="List Box (11)">"user_created_at","tweet_created_at","retweet_created_at","FileName"</Value>
+              <Value name="Check Box (84)">True</Value>
+              <Value name="Check Box (117)">True</Value>
+              <Value name="Check Box (15)">True</Value>
+              <Value name="Check Box (109)">False</Value>
+              <Value name="Check Box (122)">False</Value>
+              <Value name="Check Box (53)">False</Value>
+              <Value name="Check Box (58)">False</Value>
+              <Value name="Check Box (70)">False</Value>
+              <Value name="Check Box (77)">False</Value>
+              <Value name="Drop Down (81)">upper</Value>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings Macro="Cleanse.yxmc" />
+        </Node>
+        <Node ToolID="4">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AutoField.AutoField">
+            <Position x="582" y="113" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Fields>
+                <Field field="user_id" selected="True" />
+                <Field field="user_location" selected="True" />
+                <Field field="user_name" selected="True" />
+                <Field field="user_screen_name" selected="True" />
+                <Field field="user_created_at" selected="True" />
+                <Field field="description" selected="True" />
+                <Field field="user_followers_count" selected="True" />
+                <Field field="tweet_favorite_count" selected="True" />
+                <Field field="tweet_id" selected="True" />
+                <Field field="tweet_created_at" selected="True" />
+                <Field field="text" selected="True" />
+                <Field field="tweet_lang" selected="True" />
+                <Field field="retweeted_count" selected="True" />
+                <Field field="retweet_created_at" selected="True" />
+                <Field field="retweeted_status_followers_count" selected="True" />
+                <Field field="retweet_user_name" selected="True" />
+                <Field field="retweet_user_location" selected="True" />
+                <Field field="School" selected="True" />
+                <Field field="*Unknown" selected="True" />
+              </Fields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="user_id" size="19" source="Formula: [_CurrentField_]" type="V_String" />
+                <Field name="friends_count" source="Formula: [_CurrentField_]" type="Double" />
+                <Field name="user_location" size="420" source="Formula: [_CurrentField_]" type="V_String" />
+                <Field name="user_name" size="165" source="Formula: [_CurrentField_]" type="V_String" />
+                <Field name="user_screen_name" size="34" source="Formula: [_CurrentField_]" type="V_String" />
+                <Field name="user_created_at" size="154" source="Formula: [_CurrentField_]" type="V_String" />
+                <Field name="description" size="640" source="Formula: [_CurrentField_]" type="V_String" />
+                <Field name="favourites_count" source="Formula: [_CurrentField_]" type="Double" />
+                <Field name="user_followers_count" size="30" source="Formula: [_CurrentField_]" type="V_String" />
+                <Field name="tweet_favorite_count" size="142" source="Formula: [_CurrentField_]" type="V_String" />
+                <Field name="tweet_id" size="66" source="Formula: [_CurrentField_]" type="V_String" />
+                <Field name="tweet_created_at" size="33" source="Formula: [_CurrentField_]" type="String" />
+                <Field name="text" size="347" source="Formula: [_CurrentField_]" type="V_String" />
+                <Field name="tweet_lang" size="8" source="Formula: [_CurrentField_]" type="V_String" />
+                <Field name="retweeted_count" size="13" source="Formula: [_CurrentField_]" type="V_String" />
+                <Field name="retweet_created_at" size="30" source="Formula: [_CurrentField_]" type="V_String" />
+                <Field name="retweeted_status_followers_count" source="Formula: [_CurrentField_]" type="Double" />
+                <Field name="retweet_user_name" size="130" source="Formula: [_CurrentField_]" type="V_String" />
+                <Field name="retweet_user_location" size="289" source="Formula: [_CurrentField_]" type="V_String" />
+                <Field name="length_of_text" source="Formula: [_CurrentField_]" type="Double" />
+                <Field description="TextToColumns: Parsed from FileName" name="School" size="12" source="Formula: IF [School] = &quot;uChicagoBroad&quot;&#xA;THEN &quot;uChicago&quot;&#xA;Else [School]&#xA;ENDIF" type="String" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxAutoField" />
+        </Node>
+        <Node ToolID="8">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DateTime.DateTime">
+            <Position x="666" y="114" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <IsFrom value="False" />
+              <InputFieldName>user_created_at</InputFieldName>
+              <Language>English</Language>
+              <Format>dy Mon dd hh:mm:ss +0000 yyyy</Format>
+              <OutputFieldName>user_created_atTIME</OutputFieldName>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>Convert user_created_at From:
+Custom</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDateTime" />
+        </Node>
+        <Node ToolID="9">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DateTime.DateTime">
+            <Position x="762" y="114" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <IsFrom value="False" />
+              <InputFieldName>tweet_created_at</InputFieldName>
+              <Language>English</Language>
+              <Format>dy Mon dd hh:mm:ss +0000 yyyy</Format>
+              <OutputFieldName>tweet_created_atTIME</OutputFieldName>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>Convert tweet_created_at From:
+Custom</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDateTime" />
+        </Node>
+        <Node ToolID="10">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DateTime.DateTime">
+            <Position x="858" y="114" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <IsFrom value="False" />
+              <InputFieldName>retweet_created_at</InputFieldName>
+              <Language>English</Language>
+              <Format>dy Mon dd hh:mm:ss +0000 yyyy</Format>
+              <OutputFieldName>retweet_created_atTIME</OutputFieldName>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>Convert retweet_created_at From:
+Custom</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDateTime" />
+        </Node>
+        <Node ToolID="11">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="390" y="114" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Field_1" selected="False" />
+                <SelectField field="friends_count" selected="True" type="Double" size="8" />
+                <SelectField field="favourites_count" selected="True" type="Double" size="8" />
+                <SelectField field="length_of_text" selected="True" type="Double" size="8" />
+                <SelectField field="FileName" selected="False" />
+                <SelectField field="FileName1" selected="False" />
+                <SelectField field="FileName2" selected="False" />
+                <SelectField field="FileName3" selected="False" />
+                <SelectField field="FileName4" selected="True" rename="School" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+        <Node ToolID="12">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.TextToColumns.TextToColumns">
+            <Position x="294" y="113" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Field>FileName</Field>
+              <ErrorHandling>Last</ErrorHandling>
+              <RootName>FileName</RootName>
+              <Delimeters value="_" />
+              <NumFields value="4" />
+              <Flags value="0" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextToColumns" />
+        </Node>
+        <Node ToolID="13">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="954" y="114" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="True" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="user_id" selected="True" />
+                <SelectField field="friends_count" selected="True" />
+                <SelectField field="user_location" selected="True" />
+                <SelectField field="user_name" selected="True" />
+                <SelectField field="user_screen_name" selected="True" />
+                <SelectField field="user_created_atTIME" selected="True" rename="user_created_at" />
+                <SelectField field="user_created_at" selected="False" />
+                <SelectField field="description" selected="True" />
+                <SelectField field="favourites_count" selected="True" />
+                <SelectField field="user_followers_count" selected="True" />
+                <SelectField field="tweet_favorite_count" selected="True" />
+                <SelectField field="tweet_id" selected="True" />
+                <SelectField field="tweet_created_atTIME" selected="True" rename="tweet_created_at" />
+                <SelectField field="tweet_created_at" selected="False" />
+                <SelectField field="text" selected="True" />
+                <SelectField field="tweet_lang" selected="True" />
+                <SelectField field="retweeted_count" selected="True" />
+                <SelectField field="retweet_created_atTIME" selected="True" rename="retweet_created_at" />
+                <SelectField field="retweet_created_at" selected="False" />
+                <SelectField field="retweeted_status_followers_count" selected="True" />
+                <SelectField field="retweet_user_name" selected="True" />
+                <SelectField field="retweet_user_location" selected="True" />
+                <SelectField field="length_of_text" selected="True" />
+                <SelectField field="School" selected="True" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+        <Node ToolID="15">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+            <Position x="486" y="114" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FormulaFields>
+                <FormulaField expression="IF [School] = &quot;uChicagoBroad&quot;&#xA;THEN &quot;uChicago&quot;&#xA;Else [School]&#xA;ENDIF" field="School" size="254" type="V_WString" />
+              </FormulaFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText><![CDATA[School = IF [School] = "uChicagoBroad"
+THEN "uChicago"
+Else [School]
+ENDIF
+]]></DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+        </Node>
+        <Node ToolID="18">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+            <Position x="1050" y="114" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FormulaFields>
+                <FormulaField expression="DateTimeDiff([tweet_created_at],[retweet_created_at],&quot;minutes&quot;)" field="retweet_lag_minutes" size="1073741823" type="V_WString" />
+              </FormulaFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>retweet_lag_minutes = DateTimeDiff([tweet_created_at],[retweet_created_at],"minu...</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+        </Node>
+        <Node ToolID="20">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="1278" y="114" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="True" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="user_id" selected="True" />
+                <SelectField field="friends_count" selected="True" />
+                <SelectField field="user_location" selected="True" />
+                <SelectField field="user_name" selected="True" />
+                <SelectField field="user_screen_name" selected="True" />
+                <SelectField field="user_created_at" selected="True" />
+                <SelectField field="user_created_at_date" selected="True" type="Date" size="10" />
+                <SelectField field="description" selected="True" />
+                <SelectField field="favourites_count" selected="True" />
+                <SelectField field="user_followers_count" selected="True" type="Double" size="8" />
+                <SelectField field="tweet_favorite_count" selected="True" type="Double" size="8" />
+                <SelectField field="tweet_id" selected="True" />
+                <SelectField field="tweet_created_at" selected="True" />
+                <SelectField field="tweet_created_at_date" selected="True" type="Date" size="10" />
+                <SelectField field="text" selected="True" />
+                <SelectField field="tweet_lang" selected="True" />
+                <SelectField field="retweeted_count" selected="True" type="Double" size="8" />
+                <SelectField field="retweet_created_at" selected="True" />
+                <SelectField field="retweet_created_at_date" selected="True" type="Date" size="10" />
+                <SelectField field="retweet_lag_minutes" selected="True" type="Double" size="8" />
+                <SelectField field="retweeted_status_followers_count" selected="True" />
+                <SelectField field="retweet_user_name" selected="True" />
+                <SelectField field="retweet_user_location" selected="True" />
+                <SelectField field="length_of_text" selected="True" />
+                <SelectField field="School" selected="True" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+        <Node ToolID="21">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+            <Position x="1170" y="114" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FormulaFields>
+                <FormulaField expression="[user_created_at]" field="user_created_at_date" size="1073741823" type="V_WString" />
+                <FormulaField expression="[tweet_created_at]" field="tweet_created_at_date" size="1073741823" type="V_WString" />
+                <FormulaField expression="[retweet_created_at]" field="retweet_created_at_date" size="1073741823" type="V_WString" />
+              </FormulaFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>user_created_at_date = [user_created_at]
+tweet_created_at_date = [tweet_created_...</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+        </Node>
+        <Node ToolID="22">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+            <Position x="1482" y="114" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <File MaxRecords="" FileFormat="0">C:\Users\carlson nic\Desktop\BDP final\tweets_final.csv</File>
+              <Passwords />
+              <FormatSpecificOptions>
+                <LineEndStyle>CRLF</LineEndStyle>
+                <Delimeter>,</Delimeter>
+                <ForceQuotes>False</ForceQuotes>
+                <HeaderRow>True</HeaderRow>
+                <CodePage>28591</CodePage>
+                <WriteBOM>True</WriteBOM>
+              </FormatSpecificOptions>
+              <MultiFile value="False" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>tweets_final.csv</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+        </Node>
+        <Node ToolID="90">
+          <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+            <Position x="1398" y="198" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <SummarizeFields>
+                <SummarizeField field="School" action="GroupBy" rename="School" />
+                <SummarizeField field="School" action="Count" rename="Count" />
+              </SummarizeFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+        </Node>
+        <Node ToolID="91">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="1494" y="198" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <TempFile>C:\Users\CARLSO~1\AppData\Local\Temp\Engine_35868_487938654f0344cf89a4d3dfbce98630_\Engine_22352_540bbfc7aa334f768edebb8bd72be74b_.yxdb</TempFile>
+              <TempFileDataProfiling />
+              <Layout>
+                <ViewMode>Single</ViewMode>
+                <ViewSize value="100" />
+                <View1>
+                  <DefaultTab>Profile</DefaultTab>
+                  <Hints>
+                    <Table />
+                  </Hints>
+                </View1>
+                <View2 />
+              </Layout>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+        <Node ToolID="92">
+          <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+            <Position x="1398" y="282" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <SummarizeFields>
+                <SummarizeField field="School" action="GroupBy" rename="School" />
+                <SummarizeField field="friends_count" action="Sum" rename="Sum_friends_count" />
+                <SummarizeField field="favourites_count" action="Sum" rename="Sum_favourites_count" />
+                <SummarizeField field="user_followers_count" action="Sum" rename="Sum_user_followers_count" />
+                <SummarizeField field="tweet_favorite_count" action="Sum" rename="Sum_tweet_favorite_count" />
+                <SummarizeField field="retweeted_count" action="Sum" rename="Sum_retweeted_count" />
+                <SummarizeField field="retweet_lag_minutes" action="Avg" rename="Avg_retweet_lag_minutes" />
+                <SummarizeField field="retweeted_status_followers_count" action="Sum" rename="Sum_retweeted_status_followers_count" />
+              </SummarizeFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+        </Node>
+        <Node ToolID="93">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="1494" y="294" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <TempFile>C:\Users\CARLSO~1\AppData\Local\Temp\Engine_35868_487938654f0344cf89a4d3dfbce98630_\Engine_22352_662618700ef84e87abe2d0ea14afd8e0_.yxdb</TempFile>
+              <TempFileDataProfiling />
+              <Layout>
+                <ViewMode>Single</ViewMode>
+                <ViewSize value="100" />
+                <View1>
+                  <DefaultTab>Profile</DefaultTab>
+                  <Hints>
+                    <Table />
+                  </Hints>
+                </View1>
+                <View2 />
+              </Layout>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+        <Node ToolID="94">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="1386" y="54" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <TempFile>C:\Users\CARLSO~1\AppData\Local\Temp\Engine_35868_487938654f0344cf89a4d3dfbce98630_\Engine_22352_074f8711624f4414aed13eaf95977e97_.yxdb</TempFile>
+              <TempFileDataProfiling />
+              <Layout>
+                <ViewMode>Single</ViewMode>
+                <ViewSize value="100" />
+                <View1>
+                  <DefaultTab>Profile</DefaultTab>
+                  <Hints>
+                    <Table />
+                  </Hints>
+                </View1>
+                <View2 />
+              </Layout>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+      </ChildNodes>
+    </Node>
+    <Node ToolID="39">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="66" y="330" width="152" height="24" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>Container 23</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="True" />
+          <Folded value="True" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="24">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+            <Position x="91" y="439" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Passwords />
+              <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="FileName">C:\Users\carlson nic\Desktop\BDP final\shared_data_carlson1858_Yale.csv</File>
+              <FormatSpecificOptions>
+                <HeaderRow>True</HeaderRow>
+                <IgnoreErrors>False</IgnoreErrors>
+                <AllowShareWrite>False</AllowShareWrite>
+                <ImportLine>1</ImportLine>
+                <FieldLen>5000</FieldLen>
+                <SingleThreadRead>False</SingleThreadRead>
+                <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+                <Delimeter>,</Delimeter>
+                <QuoteRecordBreak>False</QuoteRecordBreak>
+                <CodePage>28591</CodePage>
+              </FormatSpecificOptions>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>shared_data_carlson1858_Yale.csv</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="Field_1" size="5000" source="File: C:\Users\carlson nic\Desktop\BDP final\shared_data_carlson1858_Yale.csv" type="V_String" />
+                <Field name="user_id" size="5000" source="File: C:\Users\carlson nic\Desktop\BDP final\shared_data_carlson1858_Yale.csv" type="V_String" />
+                <Field name="friends_count" size="5000" source="File: C:\Users\carlson nic\Desktop\BDP final\shared_data_carlson1858_Yale.csv" type="V_String" />
+                <Field name="user_location" size="5000" source="File: C:\Users\carlson nic\Desktop\BDP final\shared_data_carlson1858_Yale.csv" type="V_String" />
+                <Field name="user_name" size="5000" source="File: C:\Users\carlson nic\Desktop\BDP final\shared_data_carlson1858_Yale.csv" type="V_String" />
+                <Field name="user_screen_name" size="5000" source="File: C:\Users\carlson nic\Desktop\BDP final\shared_data_carlson1858_Yale.csv" type="V_String" />
+                <Field name="user_created_at" size="5000" source="File: C:\Users\carlson nic\Desktop\BDP final\shared_data_carlson1858_Yale.csv" type="V_String" />
+                <Field name="description" size="5000" source="File: C:\Users\carlson nic\Desktop\BDP final\shared_data_carlson1858_Yale.csv" type="V_String" />
+                <Field name="favourites_count" size="5000" source="File: C:\Users\carlson nic\Desktop\BDP final\shared_data_carlson1858_Yale.csv" type="V_String" />
+                <Field name="user_followers_count" size="5000" source="File: C:\Users\carlson nic\Desktop\BDP final\shared_data_carlson1858_Yale.csv" type="V_String" />
+                <Field name="tweet_favorite_count" size="5000" source="File: C:\Users\carlson nic\Desktop\BDP final\shared_data_carlson1858_Yale.csv" type="V_String" />
+                <Field name="tweet_id" size="5000" source="File: C:\Users\carlson nic\Desktop\BDP final\shared_data_carlson1858_Yale.csv" type="V_String" />
+                <Field name="tweet_created_at" size="5000" source="File: C:\Users\carlson nic\Desktop\BDP final\shared_data_carlson1858_Yale.csv" type="V_String" />
+                <Field name="text" size="5000" source="File: C:\Users\carlson nic\Desktop\BDP final\shared_data_carlson1858_Yale.csv" type="V_String" />
+                <Field name="tweet_lang" size="5000" source="File: C:\Users\carlson nic\Desktop\BDP final\shared_data_carlson1858_Yale.csv" type="V_String" />
+                <Field name="retweeted_count" size="5000" source="File: C:\Users\carlson nic\Desktop\BDP final\shared_data_carlson1858_Yale.csv" type="V_String" />
+                <Field name="retweet_created_at" size="5000" source="File: C:\Users\carlson nic\Desktop\BDP final\shared_data_carlson1858_Yale.csv" type="V_String" />
+                <Field name="retweeted_status_followers_count" size="5000" source="File: C:\Users\carlson nic\Desktop\BDP final\shared_data_carlson1858_Yale.csv" type="V_String" />
+                <Field name="retweet_user_name" size="5000" source="File: C:\Users\carlson nic\Desktop\BDP final\shared_data_carlson1858_Yale.csv" type="V_String" />
+                <Field name="retweet_user_location" size="5000" source="File: C:\Users\carlson nic\Desktop\BDP final\shared_data_carlson1858_Yale.csv" type="V_String" />
+                <Field name="length_of_text" size="5000" source="File: C:\Users\carlson nic\Desktop\BDP final\shared_data_carlson1858_Yale.csv" type="V_String" />
+                <Field name="FileName" size="254" source="File: FileName" type="V_WString" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+        </Node>
+        <Node ToolID="25">
+          <GuiSettings>
+            <Position x="198" y="439" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Value name="Check Box (135)">False</Value>
+              <Value name="Check Box (136)">False</Value>
+              <Value name="List Box (11)">"user_created_at","tweet_created_at","retweet_created_at","FileName"</Value>
+              <Value name="Check Box (84)">True</Value>
+              <Value name="Check Box (117)">True</Value>
+              <Value name="Check Box (15)">True</Value>
+              <Value name="Check Box (109)">False</Value>
+              <Value name="Check Box (122)">False</Value>
+              <Value name="Check Box (53)">False</Value>
+              <Value name="Check Box (58)">False</Value>
+              <Value name="Check Box (70)">False</Value>
+              <Value name="Check Box (77)">False</Value>
+              <Value name="Drop Down (81)">upper</Value>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings Macro="Cleanse.yxmc" />
+        </Node>
+        <Node ToolID="26">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AutoField.AutoField">
+            <Position x="583" y="438" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Fields>
+                <Field field="user_id" selected="True" />
+                <Field field="user_location" selected="True" />
+                <Field field="user_name" selected="True" />
+                <Field field="user_screen_name" selected="True" />
+                <Field field="user_created_at" selected="True" />
+                <Field field="description" selected="True" />
+                <Field field="user_followers_count" selected="True" />
+                <Field field="tweet_favorite_count" selected="True" />
+                <Field field="tweet_id" selected="True" />
+                <Field field="tweet_created_at" selected="True" />
+                <Field field="text" selected="True" />
+                <Field field="tweet_lang" selected="True" />
+                <Field field="retweeted_count" selected="True" />
+                <Field field="retweet_created_at" selected="True" />
+                <Field field="retweeted_status_followers_count" selected="True" />
+                <Field field="retweet_user_name" selected="True" />
+                <Field field="retweet_user_location" selected="True" />
+                <Field field="School" selected="True" />
+                <Field field="*Unknown" selected="True" />
+              </Fields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="user_id" size="19" source="Formula: [_CurrentField_]" type="V_String" />
+                <Field name="friends_count" source="Formula: [_CurrentField_]" type="Double" />
+                <Field name="user_location" size="290" source="Formula: [_CurrentField_]" type="V_String" />
+                <Field name="user_name" size="165" source="Formula: [_CurrentField_]" type="V_String" />
+                <Field name="user_screen_name" size="30" source="Formula: [_CurrentField_]" type="V_String" />
+                <Field name="user_created_at" size="154" source="Formula: [_CurrentField_]" type="V_String" />
+                <Field name="description" size="534" source="Formula: [_CurrentField_]" type="V_String" />
+                <Field name="favourites_count" source="Formula: [_CurrentField_]" type="Double" />
+                <Field name="user_followers_count" size="30" source="Formula: [_CurrentField_]" type="V_String" />
+                <Field name="tweet_favorite_count" size="131" source="Formula: [_CurrentField_]" type="V_String" />
+                <Field name="tweet_id" size="66" source="Formula: [_CurrentField_]" type="V_String" />
+                <Field name="tweet_created_at" size="30" source="Formula: [_CurrentField_]" type="String" />
+                <Field name="text" size="304" source="Formula: [_CurrentField_]" type="V_String" />
+                <Field name="tweet_lang" size="2" source="Formula: [_CurrentField_]" type="String" />
+                <Field name="retweeted_count" source="Formula: [_CurrentField_]" type="Double" />
+                <Field name="retweet_created_at" size="30" source="Formula: [_CurrentField_]" type="V_String" />
+                <Field name="retweeted_status_followers_count" source="Formula: [_CurrentField_]" type="Double" />
+                <Field name="retweet_user_name" size="122" source="Formula: [_CurrentField_]" type="V_String" />
+                <Field name="retweet_user_location" size="211" source="Formula: [_CurrentField_]" type="V_String" />
+                <Field name="length_of_text" source="Formula: [_CurrentField_]" type="Double" />
+                <Field description="TextToColumns: Parsed from FileName" name="School" size="4" source="Formula: IF [School] = &quot;uChicagoBroad&quot;&#xA;THEN &quot;uChicago&quot;&#xA;Else [School]&#xA;ENDIF" type="String" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxAutoField" />
+        </Node>
+        <Node ToolID="27">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DateTime.DateTime">
+            <Position x="667" y="439" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <IsFrom value="False" />
+              <InputFieldName>user_created_at</InputFieldName>
+              <Language>English</Language>
+              <Format>dy Mon dd hh:mm:ss +0000 yyyy</Format>
+              <OutputFieldName>user_created_atTIME</OutputFieldName>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>Convert user_created_at From:
+Custom</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDateTime" />
+        </Node>
+        <Node ToolID="28">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DateTime.DateTime">
+            <Position x="763" y="439" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <IsFrom value="False" />
+              <InputFieldName>tweet_created_at</InputFieldName>
+              <Language>English</Language>
+              <Format>dy Mon dd hh:mm:ss +0000 yyyy</Format>
+              <OutputFieldName>tweet_created_atTIME</OutputFieldName>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>Convert tweet_created_at From:
+Custom</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDateTime" />
+        </Node>
+        <Node ToolID="29">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DateTime.DateTime">
+            <Position x="859" y="439" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <IsFrom value="False" />
+              <InputFieldName>retweet_created_at</InputFieldName>
+              <Language>English</Language>
+              <Format>dy Mon dd hh:mm:ss +0000 yyyy</Format>
+              <OutputFieldName>retweet_created_atTIME</OutputFieldName>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>Convert retweet_created_at From:
+Custom</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDateTime" />
+        </Node>
+        <Node ToolID="30">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="391" y="439" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Field_1" selected="False" />
+                <SelectField field="friends_count" selected="True" type="Double" size="8" />
+                <SelectField field="favourites_count" selected="True" type="Double" size="8" />
+                <SelectField field="length_of_text" selected="True" type="Double" size="8" />
+                <SelectField field="FileName" selected="False" />
+                <SelectField field="FileName1" selected="False" />
+                <SelectField field="FileName2" selected="False" />
+                <SelectField field="FileName3" selected="False" />
+                <SelectField field="FileName4" selected="True" rename="School" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+        <Node ToolID="31">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.TextToColumns.TextToColumns">
+            <Position x="295" y="439" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Field>FileName</Field>
+              <ErrorHandling>Last</ErrorHandling>
+              <RootName>FileName</RootName>
+              <Delimeters value="_" />
+              <NumFields value="4" />
+              <Flags value="0" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextToColumns" />
+        </Node>
+        <Node ToolID="32">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="955" y="439" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="True" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="user_id" selected="True" />
+                <SelectField field="friends_count" selected="True" />
+                <SelectField field="user_location" selected="True" />
+                <SelectField field="user_name" selected="True" />
+                <SelectField field="user_screen_name" selected="True" />
+                <SelectField field="user_created_atTIME" selected="True" rename="user_created_at" />
+                <SelectField field="user_created_at" selected="False" />
+                <SelectField field="description" selected="True" />
+                <SelectField field="favourites_count" selected="True" />
+                <SelectField field="user_followers_count" selected="True" />
+                <SelectField field="tweet_favorite_count" selected="True" />
+                <SelectField field="tweet_id" selected="True" />
+                <SelectField field="tweet_created_atTIME" selected="True" rename="tweet_created_at" />
+                <SelectField field="tweet_created_at" selected="False" />
+                <SelectField field="text" selected="True" />
+                <SelectField field="tweet_lang" selected="True" />
+                <SelectField field="retweeted_count" selected="True" />
+                <SelectField field="retweet_created_atTIME" selected="True" rename="retweet_created_at" />
+                <SelectField field="retweet_created_at" selected="False" />
+                <SelectField field="retweeted_status_followers_count" selected="True" />
+                <SelectField field="retweet_user_name" selected="True" />
+                <SelectField field="retweet_user_location" selected="True" />
+                <SelectField field="length_of_text" selected="True" />
+                <SelectField field="School" selected="True" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+        <Node ToolID="33">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+            <Position x="487" y="439" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FormulaFields>
+                <FormulaField expression="IF [School] = &quot;uChicagoBroad&quot;&#xA;THEN &quot;uChicago&quot;&#xA;Else [School]&#xA;ENDIF" field="School" size="254" type="V_WString" />
+              </FormulaFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText><![CDATA[School = IF [School] = "uChicagoBroad"
+THEN "uChicago"
+Else [School]
+ENDIF
+]]></DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+        </Node>
+        <Node ToolID="34">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+            <Position x="1051" y="439" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FormulaFields>
+                <FormulaField expression="DateTimeDiff([tweet_created_at],[retweet_created_at],&quot;minutes&quot;)" field="retweet_lag_minutes" size="1073741823" type="V_WString" />
+              </FormulaFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>retweet_lag_minutes = DateTimeDiff([tweet_created_at],[retweet_created_at],"minu...</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+        </Node>
+        <Node ToolID="35">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="1387" y="379" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <TempFile>C:\Users\CARLSO~1\AppData\Local\Temp\Engine_21532_8b0b9aca67934688b1d68dee80c31890_\Engine_30572_f7682cc3a5314a1893364d85b1ea63eb_.yxdb</TempFile>
+              <TempFileDataProfiling />
+              <Layout>
+                <ViewMode>Single</ViewMode>
+                <ViewSize value="100" />
+                <View1>
+                  <DefaultTab>Profile</DefaultTab>
+                  <Hints>
+                    <Table />
+                  </Hints>
+                </View1>
+                <View2 />
+              </Layout>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+        <Node ToolID="36">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="1279" y="439" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="True" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="user_id" selected="True" />
+                <SelectField field="friends_count" selected="True" />
+                <SelectField field="user_location" selected="True" />
+                <SelectField field="user_name" selected="True" />
+                <SelectField field="user_screen_name" selected="True" />
+                <SelectField field="user_created_at" selected="True" />
+                <SelectField field="user_created_at_date" selected="True" type="Date" size="10" />
+                <SelectField field="description" selected="True" />
+                <SelectField field="favourites_count" selected="True" />
+                <SelectField field="user_followers_count" selected="True" />
+                <SelectField field="tweet_favorite_count" selected="True" />
+                <SelectField field="tweet_id" selected="True" />
+                <SelectField field="tweet_created_at" selected="True" />
+                <SelectField field="tweet_created_at_date" selected="True" type="Date" size="10" />
+                <SelectField field="text" selected="True" />
+                <SelectField field="tweet_lang" selected="True" />
+                <SelectField field="retweeted_count" selected="True" />
+                <SelectField field="retweet_created_at" selected="True" />
+                <SelectField field="retweet_created_at_date" selected="True" type="Date" size="10" />
+                <SelectField field="retweet_lag_minutes" selected="True" />
+                <SelectField field="retweeted_status_followers_count" selected="True" />
+                <SelectField field="retweet_user_name" selected="True" />
+                <SelectField field="retweet_user_location" selected="True" />
+                <SelectField field="length_of_text" selected="True" />
+                <SelectField field="School" selected="True" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+        <Node ToolID="37">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+            <Position x="1171" y="439" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FormulaFields>
+                <FormulaField expression="[user_created_at]" field="user_created_at_date" size="1073741823" type="V_WString" />
+                <FormulaField expression="[tweet_created_at]" field="tweet_created_at_date" size="1073741823" type="V_WString" />
+                <FormulaField expression="[retweet_created_at]" field="retweet_created_at_date" size="1073741823" type="V_WString" />
+              </FormulaFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>user_created_at_date = [user_created_at]
+tweet_created_at_date = [tweet_created_...</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+        </Node>
+        <Node ToolID="38">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+            <Position x="1483" y="439" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <File MaxRecords="" FileFormat="0">C:\Users\carlson nic\Desktop\BDP final\tweets_yale.csv</File>
+              <Passwords />
+              <FormatSpecificOptions>
+                <LineEndStyle>CRLF</LineEndStyle>
+                <Delimeter>,</Delimeter>
+                <ForceQuotes>False</ForceQuotes>
+                <HeaderRow>True</HeaderRow>
+                <CodePage>28591</CodePage>
+                <WriteBOM>True</WriteBOM>
+              </FormatSpecificOptions>
+              <MultiFile value="False" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>tweets_yale.csv</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+        </Node>
+      </ChildNodes>
+    </Node>
+    <Node ToolID="55">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="65" y="654" width="152" height="24" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>Container 23</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="True" />
+          <Folded value="True" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="40">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+            <Position x="90" y="763" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Passwords />
+              <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="Path">C:\Users\carlson nic\Desktop\BDP final\shared_data_carlson1858_u*.csv</File>
+              <FormatSpecificOptions>
+                <HeaderRow>True</HeaderRow>
+                <IgnoreErrors>False</IgnoreErrors>
+                <AllowShareWrite>False</AllowShareWrite>
+                <ImportLine>1</ImportLine>
+                <FieldLen>5000</FieldLen>
+                <SingleThreadRead>False</SingleThreadRead>
+                <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+                <Delimeter>,</Delimeter>
+                <QuoteRecordBreak>False</QuoteRecordBreak>
+                <CodePage>28591</CodePage>
+              </FormatSpecificOptions>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>shared_data_carlson1858_u*.csv</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="Field_1" size="5000" source="File: C:\Users\carlson nic\Desktop\BDP final\shared_data_carlson1858_u*.csv" type="V_String" />
+                <Field name="user_id" size="5000" source="File: C:\Users\carlson nic\Desktop\BDP final\shared_data_carlson1858_u*.csv" type="V_String" />
+                <Field name="friends_count" size="5000" source="File: C:\Users\carlson nic\Desktop\BDP final\shared_data_carlson1858_u*.csv" type="V_String" />
+                <Field name="user_location" size="5000" source="File: C:\Users\carlson nic\Desktop\BDP final\shared_data_carlson1858_u*.csv" type="V_String" />
+                <Field name="user_name" size="5000" source="File: C:\Users\carlson nic\Desktop\BDP final\shared_data_carlson1858_u*.csv" type="V_String" />
+                <Field name="user_screen_name" size="5000" source="File: C:\Users\carlson nic\Desktop\BDP final\shared_data_carlson1858_u*.csv" type="V_String" />
+                <Field name="user_created_at" size="5000" source="File: C:\Users\carlson nic\Desktop\BDP final\shared_data_carlson1858_u*.csv" type="V_String" />
+                <Field name="description" size="5000" source="File: C:\Users\carlson nic\Desktop\BDP final\shared_data_carlson1858_u*.csv" type="V_String" />
+                <Field name="favourites_count" size="5000" source="File: C:\Users\carlson nic\Desktop\BDP final\shared_data_carlson1858_u*.csv" type="V_String" />
+                <Field name="user_followers_count" size="5000" source="File: C:\Users\carlson nic\Desktop\BDP final\shared_data_carlson1858_u*.csv" type="V_String" />
+                <Field name="tweet_favorite_count" size="5000" source="File: C:\Users\carlson nic\Desktop\BDP final\shared_data_carlson1858_u*.csv" type="V_String" />
+                <Field name="tweet_id" size="5000" source="File: C:\Users\carlson nic\Desktop\BDP final\shared_data_carlson1858_u*.csv" type="V_String" />
+                <Field name="tweet_created_at" size="5000" source="File: C:\Users\carlson nic\Desktop\BDP final\shared_data_carlson1858_u*.csv" type="V_String" />
+                <Field name="text" size="5000" source="File: C:\Users\carlson nic\Desktop\BDP final\shared_data_carlson1858_u*.csv" type="V_String" />
+                <Field name="tweet_lang" size="5000" source="File: C:\Users\carlson nic\Desktop\BDP final\shared_data_carlson1858_u*.csv" type="V_String" />
+                <Field name="retweeted_count" size="5000" source="File: C:\Users\carlson nic\Desktop\BDP final\shared_data_carlson1858_u*.csv" type="V_String" />
+                <Field name="retweet_created_at" size="5000" source="File: C:\Users\carlson nic\Desktop\BDP final\shared_data_carlson1858_u*.csv" type="V_String" />
+                <Field name="retweeted_status_followers_count" size="5000" source="File: C:\Users\carlson nic\Desktop\BDP final\shared_data_carlson1858_u*.csv" type="V_String" />
+                <Field name="retweet_user_name" size="5000" source="File: C:\Users\carlson nic\Desktop\BDP final\shared_data_carlson1858_u*.csv" type="V_String" />
+                <Field name="retweet_user_location" size="5000" source="File: C:\Users\carlson nic\Desktop\BDP final\shared_data_carlson1858_u*.csv" type="V_String" />
+                <Field name="length_of_text" size="5000" source="File: C:\Users\carlson nic\Desktop\BDP final\shared_data_carlson1858_u*.csv" type="V_String" />
+                <Field name="FileName" size="254" source="File: FileName" type="V_WString" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+        </Node>
+        <Node ToolID="41">
+          <GuiSettings>
+            <Position x="198" y="763" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Value name="Check Box (135)">False</Value>
+              <Value name="Check Box (136)">False</Value>
+              <Value name="List Box (11)">"user_created_at","tweet_created_at","retweet_created_at","FileName"</Value>
+              <Value name="Check Box (84)">True</Value>
+              <Value name="Check Box (117)">True</Value>
+              <Value name="Check Box (15)">True</Value>
+              <Value name="Check Box (109)">False</Value>
+              <Value name="Check Box (122)">False</Value>
+              <Value name="Check Box (53)">False</Value>
+              <Value name="Check Box (58)">False</Value>
+              <Value name="Check Box (70)">False</Value>
+              <Value name="Check Box (77)">False</Value>
+              <Value name="Drop Down (81)">upper</Value>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings Macro="Cleanse.yxmc" />
+        </Node>
+        <Node ToolID="42">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AutoField.AutoField">
+            <Position x="583" y="763" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Fields>
+                <Field field="user_id" selected="True" />
+                <Field field="user_location" selected="True" />
+                <Field field="user_name" selected="True" />
+                <Field field="user_screen_name" selected="True" />
+                <Field field="user_created_at" selected="True" />
+                <Field field="description" selected="True" />
+                <Field field="user_followers_count" selected="True" />
+                <Field field="tweet_favorite_count" selected="True" />
+                <Field field="tweet_id" selected="True" />
+                <Field field="tweet_created_at" selected="True" />
+                <Field field="text" selected="True" />
+                <Field field="tweet_lang" selected="True" />
+                <Field field="retweeted_count" selected="True" />
+                <Field field="retweet_created_at" selected="True" />
+                <Field field="retweeted_status_followers_count" selected="True" />
+                <Field field="retweet_user_name" selected="True" />
+                <Field field="retweet_user_location" selected="True" />
+                <Field field="School" selected="True" />
+                <Field field="*Unknown" selected="True" />
+              </Fields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="user_id" size="19" source="Formula: [_CurrentField_]" type="V_String" />
+                <Field name="friends_count" source="Formula: [_CurrentField_]" type="Double" />
+                <Field name="user_location" size="329" source="Formula: [_CurrentField_]" type="V_String" />
+                <Field name="user_name" size="145" source="Formula: [_CurrentField_]" type="V_String" />
+                <Field name="user_screen_name" size="30" source="Formula: [_CurrentField_]" type="V_String" />
+                <Field name="user_created_at" size="147" source="Formula: [_CurrentField_]" type="V_String" />
+                <Field name="description" size="614" source="Formula: [_CurrentField_]" type="V_String" />
+                <Field name="favourites_count" source="Formula: [_CurrentField_]" type="Double" />
+                <Field name="user_followers_count" size="30" source="Formula: [_CurrentField_]" type="V_String" />
+                <Field name="tweet_favorite_count" size="142" source="Formula: [_CurrentField_]" type="V_String" />
+                <Field name="tweet_id" size="42" source="Formula: [_CurrentField_]" type="V_String" />
+                <Field name="tweet_created_at" size="32" source="Formula: [_CurrentField_]" type="String" />
+                <Field name="text" size="290" source="Formula: [_CurrentField_]" type="V_String" />
+                <Field name="tweet_lang" size="8" source="Formula: [_CurrentField_]" type="V_String" />
+                <Field name="retweeted_count" size="13" source="Formula: [_CurrentField_]" type="V_String" />
+                <Field name="retweet_created_at" size="30" source="Formula: [_CurrentField_]" type="V_String" />
+                <Field name="retweeted_status_followers_count" source="Formula: [_CurrentField_]" type="Double" />
+                <Field name="retweet_user_name" size="116" source="Formula: [_CurrentField_]" type="V_String" />
+                <Field name="retweet_user_location" size="140" source="Formula: [_CurrentField_]" type="V_String" />
+                <Field name="length_of_text" source="Formula: [_CurrentField_]" type="Double" />
+                <Field description="TextToColumns: Parsed from FileName" name="School" size="17" source="Formula: IF [School] = &quot;uChicagoBroad&quot;&#xA;THEN &quot;uChicago&quot;&#xA;Else [School]&#xA;ENDIF" type="String" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxAutoField" />
+        </Node>
+        <Node ToolID="43">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DateTime.DateTime">
+            <Position x="667" y="763" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <IsFrom value="False" />
+              <InputFieldName>user_created_at</InputFieldName>
+              <Language>English</Language>
+              <Format>dy Mon dd hh:mm:ss +0000 yyyy</Format>
+              <OutputFieldName>user_created_atTIME</OutputFieldName>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>Convert user_created_at From:
+Custom</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDateTime" />
+        </Node>
+        <Node ToolID="44">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DateTime.DateTime">
+            <Position x="763" y="763" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <IsFrom value="False" />
+              <InputFieldName>tweet_created_at</InputFieldName>
+              <Language>English</Language>
+              <Format>dy Mon dd hh:mm:ss +0000 yyyy</Format>
+              <OutputFieldName>tweet_created_atTIME</OutputFieldName>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>Convert tweet_created_at From:
+Custom</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDateTime" />
+        </Node>
+        <Node ToolID="45">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DateTime.DateTime">
+            <Position x="859" y="763" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <IsFrom value="False" />
+              <InputFieldName>retweet_created_at</InputFieldName>
+              <Language>English</Language>
+              <Format>dy Mon dd hh:mm:ss +0000 yyyy</Format>
+              <OutputFieldName>retweet_created_atTIME</OutputFieldName>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>Convert retweet_created_at From:
+Custom</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDateTime" />
+        </Node>
+        <Node ToolID="46">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="391" y="763" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Field_1" selected="False" />
+                <SelectField field="friends_count" selected="True" type="Double" size="8" />
+                <SelectField field="favourites_count" selected="True" type="Double" size="8" />
+                <SelectField field="length_of_text" selected="True" type="Double" size="8" />
+                <SelectField field="FileName" selected="False" />
+                <SelectField field="FileName1" selected="False" />
+                <SelectField field="FileName2" selected="False" />
+                <SelectField field="FileName3" selected="False" />
+                <SelectField field="FileName4" selected="True" rename="School" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+        <Node ToolID="47">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.TextToColumns.TextToColumns">
+            <Position x="295" y="763" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Field>FileName</Field>
+              <ErrorHandling>Last</ErrorHandling>
+              <RootName>FileName</RootName>
+              <Delimeters value="_" />
+              <NumFields value="4" />
+              <Flags value="0" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextToColumns" />
+        </Node>
+        <Node ToolID="48">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="955" y="763" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="True" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="user_id" selected="True" />
+                <SelectField field="friends_count" selected="True" />
+                <SelectField field="user_location" selected="True" />
+                <SelectField field="user_name" selected="True" />
+                <SelectField field="user_screen_name" selected="True" />
+                <SelectField field="user_created_atTIME" selected="True" rename="user_created_at" />
+                <SelectField field="user_created_at" selected="False" />
+                <SelectField field="description" selected="True" />
+                <SelectField field="favourites_count" selected="True" />
+                <SelectField field="user_followers_count" selected="True" />
+                <SelectField field="tweet_favorite_count" selected="True" />
+                <SelectField field="tweet_id" selected="True" />
+                <SelectField field="tweet_created_atTIME" selected="True" rename="tweet_created_at" />
+                <SelectField field="tweet_created_at" selected="False" />
+                <SelectField field="text" selected="True" />
+                <SelectField field="tweet_lang" selected="True" />
+                <SelectField field="retweeted_count" selected="True" />
+                <SelectField field="retweet_created_atTIME" selected="True" rename="retweet_created_at" />
+                <SelectField field="retweet_created_at" selected="False" />
+                <SelectField field="retweeted_status_followers_count" selected="True" />
+                <SelectField field="retweet_user_name" selected="True" />
+                <SelectField field="retweet_user_location" selected="True" />
+                <SelectField field="length_of_text" selected="True" />
+                <SelectField field="School" selected="True" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+        <Node ToolID="49">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+            <Position x="487" y="763" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FormulaFields>
+                <FormulaField expression="IF [School] = &quot;uChicagoBroad&quot;&#xA;THEN &quot;uChicago&quot;&#xA;Else [School]&#xA;ENDIF" field="School" size="254" type="V_WString" />
+              </FormulaFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText><![CDATA[School = IF [School] = "uChicagoBroad"
+THEN "uChicago"
+Else [School]
+ENDIF
+]]></DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+        </Node>
+        <Node ToolID="50">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+            <Position x="1051" y="763" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FormulaFields>
+                <FormulaField expression="DateTimeDiff([tweet_created_at],[retweet_created_at],&quot;minutes&quot;)" field="retweet_lag_minutes" size="1073741823" type="V_WString" />
+              </FormulaFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>retweet_lag_minutes = DateTimeDiff([tweet_created_at],[retweet_created_at],"minu...</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+        </Node>
+        <Node ToolID="51">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="1387" y="703" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <TempFile>C:\Users\CARLSO~1\AppData\Local\Temp\Engine_21532_8b0b9aca67934688b1d68dee80c31890_\Engine_30572_81cee31881bf45018c61a0a91a9033de_.yxdb</TempFile>
+              <TempFileDataProfiling />
+              <Layout>
+                <ViewMode>Single</ViewMode>
+                <ViewSize value="100" />
+                <View1>
+                  <DefaultTab>Profile</DefaultTab>
+                  <Hints>
+                    <Table />
+                  </Hints>
+                </View1>
+                <View2 />
+              </Layout>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+        <Node ToolID="52">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="1279" y="763" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="True" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="user_id" selected="True" />
+                <SelectField field="friends_count" selected="True" />
+                <SelectField field="user_location" selected="True" />
+                <SelectField field="user_name" selected="True" />
+                <SelectField field="user_screen_name" selected="True" />
+                <SelectField field="user_created_at" selected="True" />
+                <SelectField field="user_created_at_date" selected="True" type="Date" size="10" />
+                <SelectField field="description" selected="True" />
+                <SelectField field="favourites_count" selected="True" />
+                <SelectField field="user_followers_count" selected="True" />
+                <SelectField field="tweet_favorite_count" selected="True" />
+                <SelectField field="tweet_id" selected="True" />
+                <SelectField field="tweet_created_at" selected="True" />
+                <SelectField field="tweet_created_at_date" selected="True" type="Date" size="10" />
+                <SelectField field="text" selected="True" />
+                <SelectField field="tweet_lang" selected="True" />
+                <SelectField field="retweeted_count" selected="True" />
+                <SelectField field="retweet_created_at" selected="True" />
+                <SelectField field="retweet_created_at_date" selected="True" type="Date" size="10" />
+                <SelectField field="retweet_lag_minutes" selected="True" />
+                <SelectField field="retweeted_status_followers_count" selected="True" />
+                <SelectField field="retweet_user_name" selected="True" />
+                <SelectField field="retweet_user_location" selected="True" />
+                <SelectField field="length_of_text" selected="True" />
+                <SelectField field="School" selected="True" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+        <Node ToolID="53">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+            <Position x="1171" y="763" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FormulaFields>
+                <FormulaField expression="[user_created_at]" field="user_created_at_date" size="1073741823" type="V_WString" />
+                <FormulaField expression="[tweet_created_at]" field="tweet_created_at_date" size="1073741823" type="V_WString" />
+                <FormulaField expression="[retweet_created_at]" field="retweet_created_at_date" size="1073741823" type="V_WString" />
+              </FormulaFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>user_created_at_date = [user_created_at]
+tweet_created_at_date = [tweet_created_...</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+        </Node>
+        <Node ToolID="54">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+            <Position x="1483" y="763" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <File MaxRecords="" FileFormat="0">C:\Users\carlson nic\Desktop\BDP final\tweets_uchicago.csv</File>
+              <Passwords />
+              <FormatSpecificOptions>
+                <LineEndStyle>CRLF</LineEndStyle>
+                <Delimeter>,</Delimeter>
+                <ForceQuotes>False</ForceQuotes>
+                <HeaderRow>True</HeaderRow>
+                <CodePage>28591</CodePage>
+                <WriteBOM>True</WriteBOM>
+              </FormatSpecificOptions>
+              <MultiFile value="False" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>tweets_uchicago.csv</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+        </Node>
+      </ChildNodes>
+    </Node>
+    <Node ToolID="71">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="65" y="978" width="152" height="24" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>Container 23</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="True" />
+          <Folded value="True" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="56">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+            <Position x="90" y="1087" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Passwords />
+              <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="Path">C:\Users\carlson nic\Desktop\BDP final\shared_data_carlson1858_Northwestern.csv</File>
+              <FormatSpecificOptions>
+                <HeaderRow>True</HeaderRow>
+                <IgnoreErrors>False</IgnoreErrors>
+                <AllowShareWrite>False</AllowShareWrite>
+                <ImportLine>1</ImportLine>
+                <FieldLen>5000</FieldLen>
+                <SingleThreadRead>False</SingleThreadRead>
+                <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+                <Delimeter>,</Delimeter>
+                <QuoteRecordBreak>False</QuoteRecordBreak>
+                <CodePage>28591</CodePage>
+              </FormatSpecificOptions>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>shared_data_carlson1858_Northwestern.csv</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="Field_1" size="5000" source="File: C:\Users\carlson nic\Desktop\BDP final\shared_data_carlson1858_Northwestern.csv" type="V_String" />
+                <Field name="user_id" size="5000" source="File: C:\Users\carlson nic\Desktop\BDP final\shared_data_carlson1858_Northwestern.csv" type="V_String" />
+                <Field name="friends_count" size="5000" source="File: C:\Users\carlson nic\Desktop\BDP final\shared_data_carlson1858_Northwestern.csv" type="V_String" />
+                <Field name="user_location" size="5000" source="File: C:\Users\carlson nic\Desktop\BDP final\shared_data_carlson1858_Northwestern.csv" type="V_String" />
+                <Field name="user_name" size="5000" source="File: C:\Users\carlson nic\Desktop\BDP final\shared_data_carlson1858_Northwestern.csv" type="V_String" />
+                <Field name="user_screen_name" size="5000" source="File: C:\Users\carlson nic\Desktop\BDP final\shared_data_carlson1858_Northwestern.csv" type="V_String" />
+                <Field name="user_created_at" size="5000" source="File: C:\Users\carlson nic\Desktop\BDP final\shared_data_carlson1858_Northwestern.csv" type="V_String" />
+                <Field name="description" size="5000" source="File: C:\Users\carlson nic\Desktop\BDP final\shared_data_carlson1858_Northwestern.csv" type="V_String" />
+                <Field name="favourites_count" size="5000" source="File: C:\Users\carlson nic\Desktop\BDP final\shared_data_carlson1858_Northwestern.csv" type="V_String" />
+                <Field name="user_followers_count" size="5000" source="File: C:\Users\carlson nic\Desktop\BDP final\shared_data_carlson1858_Northwestern.csv" type="V_String" />
+                <Field name="tweet_favorite_count" size="5000" source="File: C:\Users\carlson nic\Desktop\BDP final\shared_data_carlson1858_Northwestern.csv" type="V_String" />
+                <Field name="tweet_id" size="5000" source="File: C:\Users\carlson nic\Desktop\BDP final\shared_data_carlson1858_Northwestern.csv" type="V_String" />
+                <Field name="tweet_created_at" size="5000" source="File: C:\Users\carlson nic\Desktop\BDP final\shared_data_carlson1858_Northwestern.csv" type="V_String" />
+                <Field name="text" size="5000" source="File: C:\Users\carlson nic\Desktop\BDP final\shared_data_carlson1858_Northwestern.csv" type="V_String" />
+                <Field name="tweet_lang" size="5000" source="File: C:\Users\carlson nic\Desktop\BDP final\shared_data_carlson1858_Northwestern.csv" type="V_String" />
+                <Field name="retweeted_count" size="5000" source="File: C:\Users\carlson nic\Desktop\BDP final\shared_data_carlson1858_Northwestern.csv" type="V_String" />
+                <Field name="retweet_created_at" size="5000" source="File: C:\Users\carlson nic\Desktop\BDP final\shared_data_carlson1858_Northwestern.csv" type="V_String" />
+                <Field name="retweeted_status_followers_count" size="5000" source="File: C:\Users\carlson nic\Desktop\BDP final\shared_data_carlson1858_Northwestern.csv" type="V_String" />
+                <Field name="retweet_user_name" size="5000" source="File: C:\Users\carlson nic\Desktop\BDP final\shared_data_carlson1858_Northwestern.csv" type="V_String" />
+                <Field name="retweet_user_location" size="5000" source="File: C:\Users\carlson nic\Desktop\BDP final\shared_data_carlson1858_Northwestern.csv" type="V_String" />
+                <Field name="length_of_text" size="5000" source="File: C:\Users\carlson nic\Desktop\BDP final\shared_data_carlson1858_Northwestern.csv" type="V_String" />
+                <Field name="FileName" size="254" source="File: FileName" type="V_WString" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+        </Node>
+        <Node ToolID="57">
+          <GuiSettings>
+            <Position x="198" y="1087" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Value name="Check Box (135)">False</Value>
+              <Value name="Check Box (136)">False</Value>
+              <Value name="List Box (11)">"user_created_at","tweet_created_at","retweet_created_at","FileName"</Value>
+              <Value name="Check Box (84)">True</Value>
+              <Value name="Check Box (117)">True</Value>
+              <Value name="Check Box (15)">True</Value>
+              <Value name="Check Box (109)">False</Value>
+              <Value name="Check Box (122)">False</Value>
+              <Value name="Check Box (53)">False</Value>
+              <Value name="Check Box (58)">False</Value>
+              <Value name="Check Box (70)">False</Value>
+              <Value name="Check Box (77)">False</Value>
+              <Value name="Drop Down (81)">upper</Value>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings Macro="Cleanse.yxmc" />
+        </Node>
+        <Node ToolID="58">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AutoField.AutoField">
+            <Position x="583" y="1087" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Fields>
+                <Field field="user_id" selected="True" />
+                <Field field="user_location" selected="True" />
+                <Field field="user_name" selected="True" />
+                <Field field="user_screen_name" selected="True" />
+                <Field field="user_created_at" selected="True" />
+                <Field field="description" selected="True" />
+                <Field field="user_followers_count" selected="True" />
+                <Field field="tweet_favorite_count" selected="True" />
+                <Field field="tweet_id" selected="True" />
+                <Field field="tweet_created_at" selected="True" />
+                <Field field="text" selected="True" />
+                <Field field="tweet_lang" selected="True" />
+                <Field field="retweeted_count" selected="True" />
+                <Field field="retweet_created_at" selected="True" />
+                <Field field="retweeted_status_followers_count" selected="True" />
+                <Field field="retweet_user_name" selected="True" />
+                <Field field="retweet_user_location" selected="True" />
+                <Field field="School" selected="True" />
+                <Field field="*Unknown" selected="True" />
+              </Fields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="user_id" size="19" source="Formula: [_CurrentField_]" type="V_String" />
+                <Field name="friends_count" source="Formula: [_CurrentField_]" type="Double" />
+                <Field name="user_location" size="414" source="Formula: [_CurrentField_]" type="V_String" />
+                <Field name="user_name" size="150" source="Formula: [_CurrentField_]" type="V_String" />
+                <Field name="user_screen_name" size="30" source="Formula: [_CurrentField_]" type="V_String" />
+                <Field name="user_created_at" size="152" source="Formula: [_CurrentField_]" type="V_String" />
+                <Field name="description" size="640" source="Formula: [_CurrentField_]" type="V_String" />
+                <Field name="favourites_count" source="Formula: [_CurrentField_]" type="Double" />
+                <Field name="user_followers_count" size="30" source="Formula: [_CurrentField_]" type="V_String" />
+                <Field name="tweet_favorite_count" source="Formula: [_CurrentField_]" type="Double" />
+                <Field name="tweet_id" size="31" source="Formula: [_CurrentField_]" type="V_String" />
+                <Field name="tweet_created_at" size="30" source="Formula: [_CurrentField_]" type="String" />
+                <Field name="text" size="347" source="Formula: [_CurrentField_]" type="V_String" />
+                <Field name="tweet_lang" size="2" source="Formula: [_CurrentField_]" type="String" />
+                <Field name="retweeted_count" source="Formula: [_CurrentField_]" type="Double" />
+                <Field name="retweet_created_at" size="30" source="Formula: [_CurrentField_]" type="V_String" />
+                <Field name="retweeted_status_followers_count" source="Formula: [_CurrentField_]" type="Double" />
+                <Field name="retweet_user_name" size="130" source="Formula: [_CurrentField_]" type="V_String" />
+                <Field name="retweet_user_location" size="144" source="Formula: [_CurrentField_]" type="V_String" />
+                <Field name="length_of_text" source="Formula: [_CurrentField_]" type="Double" />
+                <Field description="TextToColumns: Parsed from FileName" name="School" size="16" source="Formula: IF [School] = &quot;uChicagoBroad&quot;&#xA;THEN &quot;uChicago&quot;&#xA;Else [School]&#xA;ENDIF" type="String" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxAutoField" />
+        </Node>
+        <Node ToolID="59">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DateTime.DateTime">
+            <Position x="667" y="1087" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <IsFrom value="False" />
+              <InputFieldName>user_created_at</InputFieldName>
+              <Language>English</Language>
+              <Format>dy Mon dd hh:mm:ss +0000 yyyy</Format>
+              <OutputFieldName>user_created_atTIME</OutputFieldName>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>Convert user_created_at From:
+Custom</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDateTime" />
+        </Node>
+        <Node ToolID="60">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DateTime.DateTime">
+            <Position x="763" y="1087" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <IsFrom value="False" />
+              <InputFieldName>tweet_created_at</InputFieldName>
+              <Language>English</Language>
+              <Format>dy Mon dd hh:mm:ss +0000 yyyy</Format>
+              <OutputFieldName>tweet_created_atTIME</OutputFieldName>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>Convert tweet_created_at From:
+Custom</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDateTime" />
+        </Node>
+        <Node ToolID="61">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DateTime.DateTime">
+            <Position x="859" y="1087" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <IsFrom value="False" />
+              <InputFieldName>retweet_created_at</InputFieldName>
+              <Language>English</Language>
+              <Format>dy Mon dd hh:mm:ss +0000 yyyy</Format>
+              <OutputFieldName>retweet_created_atTIME</OutputFieldName>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>Convert retweet_created_at From:
+Custom</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDateTime" />
+        </Node>
+        <Node ToolID="62">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="391" y="1087" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Field_1" selected="False" />
+                <SelectField field="friends_count" selected="True" type="Double" size="8" />
+                <SelectField field="favourites_count" selected="True" type="Double" size="8" />
+                <SelectField field="length_of_text" selected="True" type="Double" size="8" />
+                <SelectField field="FileName" selected="False" />
+                <SelectField field="FileName1" selected="False" />
+                <SelectField field="FileName2" selected="False" />
+                <SelectField field="FileName3" selected="False" />
+                <SelectField field="FileName4" selected="True" rename="School" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+        <Node ToolID="63">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.TextToColumns.TextToColumns">
+            <Position x="295" y="1087" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Field>FileName</Field>
+              <ErrorHandling>Last</ErrorHandling>
+              <RootName>FileName</RootName>
+              <Delimeters value="_" />
+              <NumFields value="4" />
+              <Flags value="0" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextToColumns" />
+        </Node>
+        <Node ToolID="64">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="955" y="1087" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="True" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="user_id" selected="True" />
+                <SelectField field="friends_count" selected="True" />
+                <SelectField field="user_location" selected="True" />
+                <SelectField field="user_name" selected="True" />
+                <SelectField field="user_screen_name" selected="True" />
+                <SelectField field="user_created_atTIME" selected="True" rename="user_created_at" />
+                <SelectField field="user_created_at" selected="False" />
+                <SelectField field="description" selected="True" />
+                <SelectField field="favourites_count" selected="True" />
+                <SelectField field="user_followers_count" selected="True" />
+                <SelectField field="tweet_favorite_count" selected="True" />
+                <SelectField field="tweet_id" selected="True" />
+                <SelectField field="tweet_created_atTIME" selected="True" rename="tweet_created_at" />
+                <SelectField field="tweet_created_at" selected="False" />
+                <SelectField field="text" selected="True" />
+                <SelectField field="tweet_lang" selected="True" />
+                <SelectField field="retweeted_count" selected="True" />
+                <SelectField field="retweet_created_atTIME" selected="True" rename="retweet_created_at" />
+                <SelectField field="retweet_created_at" selected="False" />
+                <SelectField field="retweeted_status_followers_count" selected="True" />
+                <SelectField field="retweet_user_name" selected="True" />
+                <SelectField field="retweet_user_location" selected="True" />
+                <SelectField field="length_of_text" selected="True" />
+                <SelectField field="School" selected="True" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+        <Node ToolID="65">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+            <Position x="487" y="1087" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FormulaFields>
+                <FormulaField expression="IF [School] = &quot;uChicagoBroad&quot;&#xA;THEN &quot;uChicago&quot;&#xA;Else [School]&#xA;ENDIF" field="School" size="254" type="V_WString" />
+              </FormulaFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText><![CDATA[School = IF [School] = "uChicagoBroad"
+THEN "uChicago"
+Else [School]
+ENDIF
+]]></DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+        </Node>
+        <Node ToolID="66">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+            <Position x="1051" y="1087" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FormulaFields>
+                <FormulaField expression="DateTimeDiff([tweet_created_at],[retweet_created_at],&quot;minutes&quot;)" field="retweet_lag_minutes" size="1073741823" type="V_WString" />
+              </FormulaFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>retweet_lag_minutes = DateTimeDiff([tweet_created_at],[retweet_created_at],"minu...</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+        </Node>
+        <Node ToolID="67">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="1387" y="1027" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <TempFile>C:\Users\CARLSO~1\AppData\Local\Temp\Engine_21532_8b0b9aca67934688b1d68dee80c31890_\Engine_30572_b7045cf24e4e4bf1b0e6178277096592_.yxdb</TempFile>
+              <TempFileDataProfiling />
+              <Layout>
+                <ViewMode>Single</ViewMode>
+                <ViewSize value="100" />
+                <View1>
+                  <DefaultTab>Profile</DefaultTab>
+                  <Hints>
+                    <Table />
+                  </Hints>
+                </View1>
+                <View2 />
+              </Layout>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+        <Node ToolID="68">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="1279" y="1087" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="True" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="user_id" selected="True" />
+                <SelectField field="friends_count" selected="True" />
+                <SelectField field="user_location" selected="True" />
+                <SelectField field="user_name" selected="True" />
+                <SelectField field="user_screen_name" selected="True" />
+                <SelectField field="user_created_at" selected="True" />
+                <SelectField field="user_created_at_date" selected="True" type="Date" size="10" />
+                <SelectField field="description" selected="True" />
+                <SelectField field="favourites_count" selected="True" />
+                <SelectField field="user_followers_count" selected="True" />
+                <SelectField field="tweet_favorite_count" selected="True" />
+                <SelectField field="tweet_id" selected="True" />
+                <SelectField field="tweet_created_at" selected="True" />
+                <SelectField field="tweet_created_at_date" selected="True" type="Date" size="10" />
+                <SelectField field="text" selected="True" />
+                <SelectField field="tweet_lang" selected="True" />
+                <SelectField field="retweeted_count" selected="True" />
+                <SelectField field="retweet_created_at" selected="True" />
+                <SelectField field="retweet_created_at_date" selected="True" type="Date" size="10" />
+                <SelectField field="retweet_lag_minutes" selected="True" />
+                <SelectField field="retweeted_status_followers_count" selected="True" />
+                <SelectField field="retweet_user_name" selected="True" />
+                <SelectField field="retweet_user_location" selected="True" />
+                <SelectField field="length_of_text" selected="True" />
+                <SelectField field="School" selected="True" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+        <Node ToolID="69">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+            <Position x="1171" y="1087" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FormulaFields>
+                <FormulaField expression="[user_created_at]" field="user_created_at_date" size="1073741823" type="V_WString" />
+                <FormulaField expression="[tweet_created_at]" field="tweet_created_at_date" size="1073741823" type="V_WString" />
+                <FormulaField expression="[retweet_created_at]" field="retweet_created_at_date" size="1073741823" type="V_WString" />
+              </FormulaFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>user_created_at_date = [user_created_at]
+tweet_created_at_date = [tweet_created_...</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+        </Node>
+        <Node ToolID="70">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+            <Position x="1483" y="1087" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <File MaxRecords="" FileFormat="0">C:\Users\carlson nic\Desktop\BDP final\tweets_northwestern.csv</File>
+              <Passwords />
+              <FormatSpecificOptions>
+                <LineEndStyle>CRLF</LineEndStyle>
+                <Delimeter>,</Delimeter>
+                <ForceQuotes>False</ForceQuotes>
+                <HeaderRow>True</HeaderRow>
+                <CodePage>28591</CodePage>
+                <WriteBOM>True</WriteBOM>
+              </FormatSpecificOptions>
+              <MultiFile value="False" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>tweets_northwestern.csv</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+        </Node>
+      </ChildNodes>
+    </Node>
+    <Node ToolID="87">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="64" y="1253" width="152" height="24" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>Container 23</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="True" />
+          <Folded value="True" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="86">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+            <Position x="1483" y="1411" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <File MaxRecords="" FileFormat="0">C:\Users\carlson nic\Desktop\BDP final\tweets_harvard.csv</File>
+              <Passwords />
+              <FormatSpecificOptions>
+                <LineEndStyle>CRLF</LineEndStyle>
+                <Delimeter>,</Delimeter>
+                <ForceQuotes>False</ForceQuotes>
+                <HeaderRow>True</HeaderRow>
+                <CodePage>28591</CodePage>
+                <WriteBOM>True</WriteBOM>
+              </FormatSpecificOptions>
+              <MultiFile value="False" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>tweets_harvard.csv</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+        </Node>
+        <Node ToolID="85">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+            <Position x="1171" y="1411" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FormulaFields>
+                <FormulaField expression="[user_created_at]" field="user_created_at_date" size="1073741823" type="V_WString" />
+                <FormulaField expression="[tweet_created_at]" field="tweet_created_at_date" size="1073741823" type="V_WString" />
+                <FormulaField expression="[retweet_created_at]" field="retweet_created_at_date" size="1073741823" type="V_WString" />
+              </FormulaFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>user_created_at_date = [user_created_at]
+tweet_created_at_date = [tweet_created_...</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+        </Node>
+        <Node ToolID="84">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="1279" y="1411" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="True" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="user_id" selected="True" />
+                <SelectField field="friends_count" selected="True" />
+                <SelectField field="user_location" selected="True" />
+                <SelectField field="user_name" selected="True" />
+                <SelectField field="user_screen_name" selected="True" />
+                <SelectField field="user_created_at" selected="True" />
+                <SelectField field="user_created_at_date" selected="True" type="Date" size="10" />
+                <SelectField field="description" selected="True" />
+                <SelectField field="favourites_count" selected="True" />
+                <SelectField field="user_followers_count" selected="True" />
+                <SelectField field="tweet_favorite_count" selected="True" />
+                <SelectField field="tweet_id" selected="True" />
+                <SelectField field="tweet_created_at" selected="True" />
+                <SelectField field="tweet_created_at_date" selected="True" type="Date" size="10" />
+                <SelectField field="text" selected="True" />
+                <SelectField field="tweet_lang" selected="True" />
+                <SelectField field="retweeted_count" selected="True" />
+                <SelectField field="retweet_created_at" selected="True" />
+                <SelectField field="retweet_created_at_date" selected="True" type="Date" size="10" />
+                <SelectField field="retweet_lag_minutes" selected="True" />
+                <SelectField field="retweeted_status_followers_count" selected="True" />
+                <SelectField field="retweet_user_name" selected="True" />
+                <SelectField field="retweet_user_location" selected="True" />
+                <SelectField field="length_of_text" selected="True" />
+                <SelectField field="School" selected="True" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+        <Node ToolID="83">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="1387" y="1351" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <TempFile>C:\Users\CARLSO~1\AppData\Local\Temp\Engine_30824_d73cdcf9d53c4e788277218e6fd8bde2_\Engine_22352_a64568dfe70a48aca0f37baa6c898a22_.yxdb</TempFile>
+              <TempFileDataProfiling />
+              <Layout>
+                <ViewMode>Single</ViewMode>
+                <ViewSize value="100" />
+                <View1>
+                  <DefaultTab>Profile</DefaultTab>
+                  <Hints>
+                    <Table />
+                  </Hints>
+                </View1>
+                <View2 />
+              </Layout>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+        <Node ToolID="82">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+            <Position x="1051" y="1411" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FormulaFields>
+                <FormulaField expression="DateTimeDiff([tweet_created_at],[retweet_created_at],&quot;minutes&quot;)" field="retweet_lag_minutes" size="1073741823" type="V_WString" />
+              </FormulaFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>retweet_lag_minutes = DateTimeDiff([tweet_created_at],[retweet_created_at],"minu...</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+        </Node>
+        <Node ToolID="81">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+            <Position x="487" y="1411" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FormulaFields>
+                <FormulaField expression="IF [School] = &quot;uChicagoBroad&quot;&#xA;THEN &quot;uChicago&quot;&#xA;Else [School]&#xA;ENDIF" field="School" size="254" type="V_WString" />
+              </FormulaFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText><![CDATA[School = IF [School] = "uChicagoBroad"
+THEN "uChicago"
+Else [School]
+ENDIF
+]]></DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+        </Node>
+        <Node ToolID="80">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="955" y="1411" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="True" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="user_id" selected="True" />
+                <SelectField field="friends_count" selected="True" />
+                <SelectField field="user_location" selected="True" />
+                <SelectField field="user_name" selected="True" />
+                <SelectField field="user_screen_name" selected="True" />
+                <SelectField field="user_created_atTIME" selected="True" rename="user_created_at" />
+                <SelectField field="user_created_at" selected="False" />
+                <SelectField field="description" selected="True" />
+                <SelectField field="favourites_count" selected="True" />
+                <SelectField field="user_followers_count" selected="True" />
+                <SelectField field="tweet_favorite_count" selected="True" />
+                <SelectField field="tweet_id" selected="True" />
+                <SelectField field="tweet_created_atTIME" selected="True" rename="tweet_created_at" />
+                <SelectField field="tweet_created_at" selected="False" />
+                <SelectField field="text" selected="True" />
+                <SelectField field="tweet_lang" selected="True" />
+                <SelectField field="retweeted_count" selected="True" />
+                <SelectField field="retweet_created_atTIME" selected="True" rename="retweet_created_at" />
+                <SelectField field="retweet_created_at" selected="False" />
+                <SelectField field="retweeted_status_followers_count" selected="True" />
+                <SelectField field="retweet_user_name" selected="True" />
+                <SelectField field="retweet_user_location" selected="True" />
+                <SelectField field="length_of_text" selected="True" />
+                <SelectField field="School" selected="True" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+        <Node ToolID="79">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.TextToColumns.TextToColumns">
+            <Position x="295" y="1411" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Field>FileName</Field>
+              <ErrorHandling>Last</ErrorHandling>
+              <RootName>FileName</RootName>
+              <Delimeters value="_" />
+              <NumFields value="4" />
+              <Flags value="0" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextToColumns" />
+        </Node>
+        <Node ToolID="78">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="390" y="1411" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Field_1" selected="False" />
+                <SelectField field="friends_count" selected="True" type="Double" size="8" />
+                <SelectField field="favourites_count" selected="True" type="Double" size="8" />
+                <SelectField field="length_of_text" selected="True" type="Double" size="8" />
+                <SelectField field="FileName" selected="False" />
+                <SelectField field="FileName1" selected="False" />
+                <SelectField field="FileName2" selected="False" />
+                <SelectField field="FileName3" selected="False" />
+                <SelectField field="FileName4" selected="True" rename="School" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+        <Node ToolID="77">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DateTime.DateTime">
+            <Position x="859" y="1411" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <IsFrom value="False" />
+              <InputFieldName>retweet_created_at</InputFieldName>
+              <Language>English</Language>
+              <Format>dy Mon dd hh:mm:ss +0000 yyyy</Format>
+              <OutputFieldName>retweet_created_atTIME</OutputFieldName>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>Convert retweet_created_at From:
+Custom</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDateTime" />
+        </Node>
+        <Node ToolID="76">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DateTime.DateTime">
+            <Position x="763" y="1411" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <IsFrom value="False" />
+              <InputFieldName>tweet_created_at</InputFieldName>
+              <Language>English</Language>
+              <Format>dy Mon dd hh:mm:ss +0000 yyyy</Format>
+              <OutputFieldName>tweet_created_atTIME</OutputFieldName>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>Convert tweet_created_at From:
+Custom</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDateTime" />
+        </Node>
+        <Node ToolID="75">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DateTime.DateTime">
+            <Position x="667" y="1411" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <IsFrom value="False" />
+              <InputFieldName>user_created_at</InputFieldName>
+              <Language>English</Language>
+              <Format>dy Mon dd hh:mm:ss +0000 yyyy</Format>
+              <OutputFieldName>user_created_atTIME</OutputFieldName>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>Convert user_created_at From:
+Custom</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDateTime" />
+        </Node>
+        <Node ToolID="74">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AutoField.AutoField">
+            <Position x="583" y="1411" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Fields>
+                <Field field="user_id" selected="True" />
+                <Field field="user_location" selected="True" />
+                <Field field="user_name" selected="True" />
+                <Field field="user_screen_name" selected="True" />
+                <Field field="user_created_at" selected="True" />
+                <Field field="description" selected="True" />
+                <Field field="user_followers_count" selected="True" />
+                <Field field="tweet_favorite_count" selected="True" />
+                <Field field="tweet_id" selected="True" />
+                <Field field="tweet_created_at" selected="True" />
+                <Field field="text" selected="True" />
+                <Field field="tweet_lang" selected="True" />
+                <Field field="retweeted_count" selected="True" />
+                <Field field="retweet_created_at" selected="True" />
+                <Field field="retweeted_status_followers_count" selected="True" />
+                <Field field="retweet_user_name" selected="True" />
+                <Field field="retweet_user_location" selected="True" />
+                <Field field="School" selected="True" />
+                <Field field="*Unknown" selected="True" />
+              </Fields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="user_id" size="19" source="Formula: [_CurrentField_]" type="V_String" />
+                <Field name="friends_count" source="Formula: [_CurrentField_]" type="Double" />
+                <Field name="user_location" size="420" source="Formula: [_CurrentField_]" type="V_String" />
+                <Field name="user_name" size="150" source="Formula: [_CurrentField_]" type="V_String" />
+                <Field name="user_screen_name" size="34" source="Formula: [_CurrentField_]" type="V_String" />
+                <Field name="user_created_at" size="154" source="Formula: [_CurrentField_]" type="V_String" />
+                <Field name="description" size="640" source="Formula: [_CurrentField_]" type="V_String" />
+                <Field name="favourites_count" source="Formula: [_CurrentField_]" type="Double" />
+                <Field name="user_followers_count" size="30" source="Formula: [_CurrentField_]" type="V_String" />
+                <Field name="tweet_favorite_count" size="88" source="Formula: [_CurrentField_]" type="V_String" />
+                <Field name="tweet_id" size="58" source="Formula: [_CurrentField_]" type="V_String" />
+                <Field name="tweet_created_at" size="33" source="Formula: [_CurrentField_]" type="String" />
+                <Field name="text" size="338" source="Formula: [_CurrentField_]" type="V_String" />
+                <Field name="tweet_lang" size="2" source="Formula: [_CurrentField_]" type="String" />
+                <Field name="retweeted_count" source="Formula: [_CurrentField_]" type="Double" />
+                <Field name="retweet_created_at" size="30" source="Formula: [_CurrentField_]" type="String" />
+                <Field name="retweeted_status_followers_count" source="Formula: [_CurrentField_]" type="Double" />
+                <Field name="retweet_user_name" size="125" source="Formula: [_CurrentField_]" type="V_String" />
+                <Field name="retweet_user_location" size="289" source="Formula: [_CurrentField_]" type="V_String" />
+                <Field name="length_of_text" source="Formula: [_CurrentField_]" type="Double" />
+                <Field description="TextToColumns: Parsed from FileName" name="School" size="11" source="Formula: IF [School] = &quot;uChicagoBroad&quot;&#xA;THEN &quot;uChicago&quot;&#xA;Else [School]&#xA;ENDIF" type="String" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxAutoField" />
+        </Node>
+        <Node ToolID="73">
+          <GuiSettings>
+            <Position x="198" y="1410" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Value name="Check Box (135)">False</Value>
+              <Value name="Check Box (136)">False</Value>
+              <Value name="List Box (11)">"user_created_at","tweet_created_at","retweet_created_at","FileName"</Value>
+              <Value name="Check Box (84)">True</Value>
+              <Value name="Check Box (117)">True</Value>
+              <Value name="Check Box (15)">True</Value>
+              <Value name="Check Box (109)">False</Value>
+              <Value name="Check Box (122)">False</Value>
+              <Value name="Check Box (53)">False</Value>
+              <Value name="Check Box (58)">False</Value>
+              <Value name="Check Box (70)">False</Value>
+              <Value name="Check Box (77)">False</Value>
+              <Value name="Drop Down (81)">upper</Value>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings Macro="Cleanse.yxmc" />
+        </Node>
+        <Node ToolID="72">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+            <Position x="89" y="1411" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Passwords />
+              <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="Path">C:\Users\carlson nic\Desktop\BDP final\shared_data_carlson1858_Harvard.csv</File>
+              <FormatSpecificOptions>
+                <HeaderRow>True</HeaderRow>
+                <IgnoreErrors>False</IgnoreErrors>
+                <AllowShareWrite>False</AllowShareWrite>
+                <ImportLine>1</ImportLine>
+                <FieldLen>5000</FieldLen>
+                <SingleThreadRead>False</SingleThreadRead>
+                <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+                <Delimeter>,</Delimeter>
+                <QuoteRecordBreak>False</QuoteRecordBreak>
+                <CodePage>28591</CodePage>
+              </FormatSpecificOptions>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>shared_data_carlson1858_Harvard.csv</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="Field_1" size="5000" source="File: C:\Users\carlson nic\Desktop\BDP final\shared_data_carlson1858_Harvard.csv" type="V_String" />
+                <Field name="user_id" size="5000" source="File: C:\Users\carlson nic\Desktop\BDP final\shared_data_carlson1858_Harvard.csv" type="V_String" />
+                <Field name="friends_count" size="5000" source="File: C:\Users\carlson nic\Desktop\BDP final\shared_data_carlson1858_Harvard.csv" type="V_String" />
+                <Field name="user_location" size="5000" source="File: C:\Users\carlson nic\Desktop\BDP final\shared_data_carlson1858_Harvard.csv" type="V_String" />
+                <Field name="user_name" size="5000" source="File: C:\Users\carlson nic\Desktop\BDP final\shared_data_carlson1858_Harvard.csv" type="V_String" />
+                <Field name="user_screen_name" size="5000" source="File: C:\Users\carlson nic\Desktop\BDP final\shared_data_carlson1858_Harvard.csv" type="V_String" />
+                <Field name="user_created_at" size="5000" source="File: C:\Users\carlson nic\Desktop\BDP final\shared_data_carlson1858_Harvard.csv" type="V_String" />
+                <Field name="description" size="5000" source="File: C:\Users\carlson nic\Desktop\BDP final\shared_data_carlson1858_Harvard.csv" type="V_String" />
+                <Field name="favourites_count" size="5000" source="File: C:\Users\carlson nic\Desktop\BDP final\shared_data_carlson1858_Harvard.csv" type="V_String" />
+                <Field name="user_followers_count" size="5000" source="File: C:\Users\carlson nic\Desktop\BDP final\shared_data_carlson1858_Harvard.csv" type="V_String" />
+                <Field name="tweet_favorite_count" size="5000" source="File: C:\Users\carlson nic\Desktop\BDP final\shared_data_carlson1858_Harvard.csv" type="V_String" />
+                <Field name="tweet_id" size="5000" source="File: C:\Users\carlson nic\Desktop\BDP final\shared_data_carlson1858_Harvard.csv" type="V_String" />
+                <Field name="tweet_created_at" size="5000" source="File: C:\Users\carlson nic\Desktop\BDP final\shared_data_carlson1858_Harvard.csv" type="V_String" />
+                <Field name="text" size="5000" source="File: C:\Users\carlson nic\Desktop\BDP final\shared_data_carlson1858_Harvard.csv" type="V_String" />
+                <Field name="tweet_lang" size="5000" source="File: C:\Users\carlson nic\Desktop\BDP final\shared_data_carlson1858_Harvard.csv" type="V_String" />
+                <Field name="retweeted_count" size="5000" source="File: C:\Users\carlson nic\Desktop\BDP final\shared_data_carlson1858_Harvard.csv" type="V_String" />
+                <Field name="retweet_created_at" size="5000" source="File: C:\Users\carlson nic\Desktop\BDP final\shared_data_carlson1858_Harvard.csv" type="V_String" />
+                <Field name="retweeted_status_followers_count" size="5000" source="File: C:\Users\carlson nic\Desktop\BDP final\shared_data_carlson1858_Harvard.csv" type="V_String" />
+                <Field name="retweet_user_name" size="5000" source="File: C:\Users\carlson nic\Desktop\BDP final\shared_data_carlson1858_Harvard.csv" type="V_String" />
+                <Field name="retweet_user_location" size="5000" source="File: C:\Users\carlson nic\Desktop\BDP final\shared_data_carlson1858_Harvard.csv" type="V_String" />
+                <Field name="length_of_text" size="5000" source="File: C:\Users\carlson nic\Desktop\BDP final\shared_data_carlson1858_Harvard.csv" type="V_String" />
+                <Field name="FileName" size="254" source="File: FileName" type="V_WString" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+        </Node>
+        <Node ToolID="88">
+          <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+            <Position x="1446" y="1302" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <SummarizeFields>
+                <SummarizeField field="School" action="GroupBy" rename="School" />
+                <SummarizeField field="School" action="Count" rename="Count" />
+              </SummarizeFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+        </Node>
+        <Node ToolID="89">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="1542" y="1302" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <TempFile>C:\Users\CARLSO~1\AppData\Local\Temp\Engine_30824_d73cdcf9d53c4e788277218e6fd8bde2_\Engine_22352_1424f00066f34a82a2ec10f2a508e678_.yxdb</TempFile>
+              <TempFileDataProfiling />
+              <Layout>
+                <ViewMode>Single</ViewMode>
+                <ViewSize value="100" />
+                <View1>
+                  <DefaultTab>Profile</DefaultTab>
+                  <Hints>
+                    <Table />
+                  </Hints>
+                </View1>
+                <View2 />
+              </Layout>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+      </ChildNodes>
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="2" Connection="Output" />
+      <Destination ToolID="3" Connection="Input2" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Output26" />
+      <Destination ToolID="12" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="4" Connection="Output" />
+      <Destination ToolID="8" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="8" Connection="Output" />
+      <Destination ToolID="9" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="9" Connection="Output" />
+      <Destination ToolID="10" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="10" Connection="Output" />
+      <Destination ToolID="13" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="11" Connection="Output" />
+      <Destination ToolID="15" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="12" Connection="Output" />
+      <Destination ToolID="11" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="13" Connection="Output" />
+      <Destination ToolID="18" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="15" Connection="Output" />
+      <Destination ToolID="4" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="18" Connection="Output" />
+      <Destination ToolID="21" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="20" Connection="Output" />
+      <Destination ToolID="22" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="20" Connection="Output" />
+      <Destination ToolID="90" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="20" Connection="Output" />
+      <Destination ToolID="92" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="20" Connection="Output" />
+      <Destination ToolID="94" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="21" Connection="Output" />
+      <Destination ToolID="20" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="90" Connection="Output" />
+      <Destination ToolID="91" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="92" Connection="Output" />
+      <Destination ToolID="93" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="24" Connection="Output" />
+      <Destination ToolID="25" Connection="Input2" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="25" Connection="Output26" />
+      <Destination ToolID="31" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="26" Connection="Output" />
+      <Destination ToolID="27" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="27" Connection="Output" />
+      <Destination ToolID="28" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="28" Connection="Output" />
+      <Destination ToolID="29" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="29" Connection="Output" />
+      <Destination ToolID="32" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="30" Connection="Output" />
+      <Destination ToolID="33" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="31" Connection="Output" />
+      <Destination ToolID="30" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="32" Connection="Output" />
+      <Destination ToolID="34" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="33" Connection="Output" />
+      <Destination ToolID="26" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="34" Connection="Output" />
+      <Destination ToolID="37" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="36" Connection="Output" />
+      <Destination ToolID="35" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="36" Connection="Output" />
+      <Destination ToolID="38" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="37" Connection="Output" />
+      <Destination ToolID="36" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="40" Connection="Output" />
+      <Destination ToolID="41" Connection="Input2" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="41" Connection="Output26" />
+      <Destination ToolID="47" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="42" Connection="Output" />
+      <Destination ToolID="43" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="43" Connection="Output" />
+      <Destination ToolID="44" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="44" Connection="Output" />
+      <Destination ToolID="45" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="45" Connection="Output" />
+      <Destination ToolID="48" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="46" Connection="Output" />
+      <Destination ToolID="49" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="47" Connection="Output" />
+      <Destination ToolID="46" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="48" Connection="Output" />
+      <Destination ToolID="50" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="49" Connection="Output" />
+      <Destination ToolID="42" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="50" Connection="Output" />
+      <Destination ToolID="53" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="52" Connection="Output" />
+      <Destination ToolID="51" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="52" Connection="Output" />
+      <Destination ToolID="54" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="53" Connection="Output" />
+      <Destination ToolID="52" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="56" Connection="Output" />
+      <Destination ToolID="57" Connection="Input2" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="57" Connection="Output26" />
+      <Destination ToolID="63" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="58" Connection="Output" />
+      <Destination ToolID="59" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="59" Connection="Output" />
+      <Destination ToolID="60" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="60" Connection="Output" />
+      <Destination ToolID="61" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="61" Connection="Output" />
+      <Destination ToolID="64" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="62" Connection="Output" />
+      <Destination ToolID="65" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="63" Connection="Output" />
+      <Destination ToolID="62" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="64" Connection="Output" />
+      <Destination ToolID="66" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="65" Connection="Output" />
+      <Destination ToolID="58" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="66" Connection="Output" />
+      <Destination ToolID="69" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="68" Connection="Output" />
+      <Destination ToolID="67" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="68" Connection="Output" />
+      <Destination ToolID="70" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="69" Connection="Output" />
+      <Destination ToolID="68" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="85" Connection="Output" />
+      <Destination ToolID="84" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="84" Connection="Output" />
+      <Destination ToolID="86" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="84" Connection="Output" />
+      <Destination ToolID="83" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="84" Connection="Output" />
+      <Destination ToolID="88" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="82" Connection="Output" />
+      <Destination ToolID="85" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="81" Connection="Output" />
+      <Destination ToolID="74" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="80" Connection="Output" />
+      <Destination ToolID="82" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="79" Connection="Output" />
+      <Destination ToolID="78" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="78" Connection="Output" />
+      <Destination ToolID="81" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="77" Connection="Output" />
+      <Destination ToolID="80" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="76" Connection="Output" />
+      <Destination ToolID="77" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="75" Connection="Output" />
+      <Destination ToolID="76" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="74" Connection="Output" />
+      <Destination ToolID="75" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="73" Connection="Output26" />
+      <Destination ToolID="79" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="72" Connection="Output" />
+      <Destination ToolID="73" Connection="Input2" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="88" Connection="Output" />
+      <Destination ToolID="89" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="False" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>Combine and Clean files</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
